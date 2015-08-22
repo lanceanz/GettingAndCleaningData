@@ -4,8 +4,7 @@ Author: Lance Andrewes
 Date: August 2015  
 
 ##Purpose of this codebook
-This codebook describes the variables, the data, and processes performed to clean up the data prior to creation of the final output-file.    
-The data descriptions are in most cases directly from the README.txt included with the source-data. See Acknowledgments below.
+This codebook describes the variables, the data, and processes performed to clean up the data prior to creation of the final output-file. The data descriptions are in most cases directly from the README.txt included with the source-data. See Acknowledgments below.
 
 ## Related files
 * README.md,         describes how the R script is used, and how to view the final tidy data  
@@ -35,7 +34,8 @@ For each record it is provided:
 * y_train.txt - Training labels
   
 ## Work done to clean the data
-The source files were read and processed by a single R script `run_analysis.R`. 
+The source files were read and processed by a single R script `run_analysis.R`.
+ 
 1. Source files were all read into dataframes. The main (sensor-data) files are X_test.txt and X_train.txt.
 2. Column names were attached to the sensor-data dataframes.
 3. The subject identifiers (i.e. the person carrying the smartphone) and their activity description were then attached to the sensor-data.
@@ -46,7 +46,8 @@ The source files were read and processed by a single R script `run_analysis.R`.
 ## Variables in final output 'tidy.txt'
 
 "Subject"  - numeric identifier of the person carrying the smartphone    
-"Activity"  - description of the activity being performed by the person carrying the smartphone    
+"Activity"  - description of the activity being performed by the person carrying the smartphone  
+  
 The remaining variables are the mean of each sensor variable by each Activity performed by each Subject (person). Two sensors are involved - an accelerometer ("Acc") and a gyroscope ("Gyro"), both providing measurements in X, Y, and Z axes. Gravimetric variables ("Gravity") were also derived from the accelerometer.  
   
 "tBodyAcc-mean()-X"  
@@ -121,9 +122,8 @@ The datasets and documentation used in this course project were sourced from htt
 A full description of the data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 The data is used according to the following License:  
 
-License:
-========
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+### License
+Use of this dataset in publications must be acknowledged by referencing the following publication [1]    
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012  
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.  
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
