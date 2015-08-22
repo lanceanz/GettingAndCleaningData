@@ -1,14 +1,13 @@
 # README for repo GettingAndCleaningData
-Project assignment for Coursera "Getting and Cleaning Data"
+Project assignment for Coursera "Getting and Cleaning Data"  
 Author: Lance Andrewes
 
 ##Files Included
 This repository contains the following files as the requirements of the Getting and Cleaning Data Course Project:
-| File            | Description                                                                        |
-| README.md       | this file, describing how the R script is used                                     |
-| CodeBook.md     | description of the variables, the data, and transformations done to clean the data |
-| run_analysis.R  | the script that was run                                                            |
-| tidy.txt        | the output of the R script                                                         |
+* README.md         this file, describing how the R script is used  
+* CodeBook.md       description of the variables, the data, and transformations done to clean the data 
+* run_analysis.R    the script that was run  
+* tidy.txt          the output of the R script  
 
 ##Instructions for using the R script
 The script assumes that the Samsung data files are in your working-directory. They must not be in subfolders of the working-directory.
