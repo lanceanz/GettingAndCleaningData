@@ -22,7 +22,7 @@ To validate this requirement, run command `list.files(pattern="*.txt")` from the
 
 3. Review file 'tidy.txt' in RStudio by executing the following commands:
     
-        tidy <- read.table(tidy.txt, header = TRUE)
+        tidy <- read.table("tidy.txt", header = TRUE)
         View(tidy)
 
 
