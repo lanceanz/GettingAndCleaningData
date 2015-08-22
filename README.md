@@ -1,6 +1,7 @@
-# README for repo GettingAndCleaningData
-Project assignment for Coursera "Getting and Cleaning Data"  
+# README for Course Project
+# Coursera "Getting and Cleaning Data"  
 Author: Lance Andrewes
+Date: August 2015  
 
 ##Files Included
 This repository contains the following files as the requirements of the Getting and Cleaning Data Course Project:
