@@ -18,9 +18,9 @@ To validate this requirement, run command `list.files(pattern="*.txt")` from the
     [4] "subject_test.txt"    "subject_train.txt"   "X_test.txt"         
     [7] "X_train.txt"         "y_test.txt"          "y_train.txt"        
   
-2. Execute 'run_analysis.R' and it will create file 'tidy.txt' in the working-directory.
+2. Execute 'run_analysis.R' and it will create file 'tidy.txt' in the R working-directory.
 
-3. Review file 'tidy.txt' in RStudio by executing the following commands:
+3. Review file 'tidy.txt' in RStudio by saving it to your R working-directory, then execute the following commands:
     
         tidy <- read.table("tidy.txt", header = TRUE)
         View(tidy)
