@@ -39,7 +39,7 @@ The source files were read and processed by a single R script `run_analysis.R`.
 1. Source files were all read into dataframes. The main (sensor-data) files are X_test.txt and X_train.txt.
 2. Column names were attached to the sensor-data dataframes.
 3. The subject identifiers (i.e. the person carrying the smartphone) and their activity description were then attached to the sensor-data.
-4. As per the Project requirements, the mean and standard deviation columns were extracted into a new dataframe, along with the columns identifying the subject (person) and their activity. Only those variables containing the strings "mean()" and "std()" were chosen, based on information contained in file "features_info.txt" that was included with the source data.
+4. The mean and standard deviation columns were extracted into a new dataframe, along with the columns identifying the subject (person) and their activity. Only those variables containing the strings "mean()" and "std()" were chosen, based on the variable descriptions in file "features_info.txt" (included with the source data).
 5. The averages of the selected variables were calculated, grouped by subject and their activity. 
 6. The resulting analysis was saved as tidy.txt.
 
