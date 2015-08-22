@@ -24,5 +24,5 @@ To validate this requirement, run command `list.files(pattern="*.txt")` from the
     
         tidy <- read.table("tidy.txt", header = TRUE)
         View(tidy)
-
+  
 
